@@ -41,7 +41,7 @@ class MsTeamsMessageLogger
      */
     protected function setup()
     {
-        $config = include("./config.php");
+        $config = include(__DIR__ . "./../" . "config.php");
 
         $this->setConfig($config);
 
