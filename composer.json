@@ -1,0 +1,27 @@
+{
+    "name": "rohits/bug-reporter",
+    "description": "bug reporter wrapper for teams",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rohits",
+            "email": "rohit97on@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rohits\\Src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "Tests/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
