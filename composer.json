@@ -1,5 +1,5 @@
 {
-    "name": "rohits/ms-teams-logger",
+    "name": "rohits/ms-teams-message-logger",
     "description": "bug reporter wrapper for teams",
     "license": "MIT",
     "authors": [
